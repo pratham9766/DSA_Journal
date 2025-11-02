@@ -14,7 +14,7 @@ vector<string> split(const string &);
  */
 
 int hourglassSum(vector<vector<int>> arr) {
-    int max = 0;
+    int max = INT_MIN;
     int total;
     
     for(int i=0; i<4;i++ ){
@@ -99,3 +99,4 @@ vector<string> split(const string &str) {
 
     return tokens;
 }
+
